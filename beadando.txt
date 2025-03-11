@@ -1,0 +1,97 @@
+ Általános követelmények:
+- Csapat és témaválasztás Március 18-ig. Egy csapat legfeljebb három fős lehet. 
+- A beadandó GitHubon való megosztása.
+- A GitHub readme részét rendesen írjátok meg! A program megérthető és futtatható legyen a readme alapján! Amennyire lehetséges írjatok le egy példa futtatást a kimenettel együtt. Ha ez nincs rendesen megcsinálva, nem lehet ötös a jegy.
+- A beadandó bemutatása 5-10 percben az utolsó órán.
+- Határidő: 1 héttel a bemutató előtt.  
+
+A következő témák választhatók, de saját témát is hozhattok. Ebben az esetben írjatok egy emailt róla és megbeszéljük.
+
+1. Adatelemzés és vizualizáció.
+Válasszatok egy jó témát, mutassátok be egy nagyon jól kidolgozott jupyter notebookban. Pl a feladatot most Covid esetszámok alakulására írom, de válasszatok valami más témát.
+
+Követlemények:
+- jó témaválasztás, a témát a csapat megalakulásakor el kell dönteni, és Gábornak elküldeni
+- adatgyűjtés
+- statisztikai elemzés az adatokról
+- növekedés, terjedés matematikai elemzése, SIR model
+- vírus terjedésének vizualizációja
+- konkluzió levonása
+- egy notebook elkészítése, mely alkalmaz komolyabb adatvizualizáció eszközöket pl, Bokeh, Seaborn
+
+Egyéb témák: kriptovaluták értékváltozása, árfolyamok elemézése, stb
+
+
+2. Szózat rejtvény megoldó.
+
+A Szózat rejtvény leírását megtaláljátok itt: https://szozat.miklosdanka.com/ Írjatok egy programot, ami okosan megold ilyen feladványokat. 
+Követelmények:
+- Lehessen játszani a szózat játékot a programmal. 
+- A program képes legyen mindig helyesen megoldani feladványt, nehezített módban is. (A szabályos szavak listája elérhető a megadott honlapon.)
+- A program ne csak véletlenszerűen tippelgessen, hanem legyen egy matematikailag is megalapozott stratégiája, hogy miért úgy érdemes tippelni. 
+
+
+3. Játék matekos algoritmussal
+Készítsetek egy játékot a Pygame modul segítségével, mely felhasznál érdekes matekos algoritmusokat, mint például A* algoritmus útkeresésre.
+Követlemények:
+- Egy játék megvalósítása Pygame, vagy hasonló modul segítségével
+- A játék működésében játszon szerepet valamilyen érdekesebb matematikai algoritmus, melyet ti magatok írtok meg!
+- Példák: útkeresés, egyszerű fizika szimuláció, döntési fák, matekon alapuló stratégia a gép részéről, stb..
+
+
+4. Egy kriptológia/kriptográfiai módszer bemutatása
+Mutassatok be a kriptológiai/kriptográfiai módszert és a mögöttes matematikát. Pl Enigma működése és feltörése.
+Követelmények:
+- Kódolás/dekódolás bemutatása
+- Feltörési módszerek és vagy biztonsági elemézés
+- Háttérben lévő matematika bemutatása.  
+- egy notebook elkészítése, mely alkalmaz komolyabb adatvizualizáció eszközöket pl, Bokeh, Seaborn
+
+5. Numberlink
+Egy megoldó algoritmus elkészítése a Numberlink játékhoz. Részletek : https://en.wikipedia.org/wiki/Numberlink
+Követelmények
+- Egy minél ügyesebb megoldó elkészítése a numberlink játékhoz
+- Algoritmus bemutatása
+- Vizualizáció
+
+6. Fizikai rendszerek modellezése
+Készítsetek szimulációt valamilyen fizikai rendszerhez. Pl inga mozgásának szimulációja.
+Követelmények:
+- fizikai jelenség megértése, és helyes modellezése
+- amennyiben lehetséges, vizualizáció készítése
+- felhasznált matematikai módszerek bemutatása
+
+7. Gradiens-módszer 
+Gradiens módszer változatok összehasonlítása numpy-ban, költségfelület vizualizációval
+- Különböző gradiens-módszer változatok ("Vanilla" SGD, Momentum, Nesterov, AdaGrad, AdaDelta, RMSprop, Adam, Nadam, stb. közül néhány) implementációja Numpy-ban, vagy meglévő implementációk felhasználása. 
+- Szabálytalan alakú költség felületek generálása (két változóra) és a különböző algoritmusok iterálásának vizualizációja a felületen. (elég plot-okat vagy videókat gyártani pl. matplotlib-bel/OpenCV-vel)
+
+8: Alap machine learning / statisztikai módszerek 
+Alap machine learning / statisztikai módszerek implementációja és bemutatása. CA,K-Means, Gaussian Mixtures Models, Expectation–maximization algoritmus implementációja numpy segítségével.
+
+9.  Saját ötlet
+Követelmények:
+- Legyen benne matek és programozás
+Egy csomó ötlet van itt: https://www.math.colostate.edu/~adams/teaching/math435spr2017/ProjectIdeas.pdf
+Az AI-ok, mint a chatgpt, is elég jó ötleteket tudnak adni.
+
+Pár szebb példa korábbi évekből:
+https://github.com/tali2001/MatProgCsom-hf
+https://github.com/zombyguy/ez-egy-projekt
+https://github.com/Mamutninja/Zarankiewicz-game
+https://github.com/kalex3/MateInX
+https://github.com/SupersonicBathroomRug/Sudoku_Project
+
+
+
+Egyéb korábbi projektek, ötlet gyanánt:
+- Rubik kocka megoldó.
+- Fekete macska kártyajáték stratégiáinak összehasonlítása.
+- Sudoku megoldók különleges stratégiával.
+- 15-ös tologatós játék.
+- Tic tac toe elemzés.
+- Kártya számolás elemzése
+- Wave function collapse algoritmus bemutatása
+- Geogebra szerű program készítése
+- Dáma program
+- Sakkfeladvány megoldó
